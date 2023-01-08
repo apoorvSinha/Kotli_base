@@ -12,6 +12,6 @@ class MobilePhones(osName: String, brand: String, model: String){
 }
 
 fun main(){
-    var samsung = MobilePhones(osName = "Android", brand = "chamsung", model = "S22")
+    var samsung = MobilePhones(osName = "Android", brand = "samsung", model = "S22")
     samsung.chargeBattery(charge = 25)
 }
